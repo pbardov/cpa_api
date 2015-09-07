@@ -99,6 +99,10 @@ class CrmXchg_Order
     public $country_kod  = 'RU'; // опционально, string, код страны заказа
     public $affiliate_id = '';   // опционально, string, идентификатор аффилиата
     public $comment      = '';   // опционально, string, комментарий к заказу
+    public $delcost      = '';   //опционально, только для подтвержд, float, стоимость доставки
+    public $deliv_date   = '';   //опционально, только для подтвержд, string Y-m-d дата доставки
+    public $deliv_stime  = '';   //опционально, только для подтвержд, string H:i время доставки от
+    public $deliv_etime  = '';   //опционально, только для подтвержд, string H:i время доставки до
 
 }
 
