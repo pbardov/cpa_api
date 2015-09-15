@@ -15,7 +15,13 @@ class CrmXchg
         $this->m_url    = $url;
     }
 
-    public function addOrder(CrmXchg_Order $order)
+    /**
+     * Добавить заказ
+     *
+     * @param CrmXchg_Order $order
+     * @return mixed
+     */
+    public function addOrder($order)
     {
         $params = array($order);
         $answer = $this->_request('addOrder', $params);
