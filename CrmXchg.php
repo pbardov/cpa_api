@@ -109,6 +109,7 @@ class CrmXchg_Order
     public $deliv_date   = '';   //опционально, только для подтвержд, string Y-m-d дата доставки
     public $deliv_stime  = '';   //опционально, только для подтвержд, string H:i время доставки от
     public $deliv_etime  = '';   //опционально, только для подтвержд, string H:i время доставки до
+    public $upsell       = null; //опционально, array(array('good' => 'good_id1', 'price' => 12.34, 'quantity' => 1),)
 
 }
 
